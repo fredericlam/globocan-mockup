@@ -1,0 +1,78 @@
+$blue : #0b80b7 ; 
+
+body{
+    font-family: 'Arimo', sans-serif;
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+h1{
+    font-size: 2em ;
+    color: $blue;
+    text-transform: uppercase;
+    line-height: 16px;
+    margin-top: 15px;
+    padding: 15px 0px 15px 10px ;
+    border-left : 3px solid $blue ; 
+}
+
+.center{
+    text-align: center ;
+}
+
+.curve:before{
+    top: 52px;
+    left: 5px;
+    transform: rotate(5deg);
+    box-shadow: -7px 6px 15px #333;
+}
+
+h2{
+    color: $blue ; 
+}
+
+
+footer{
+    p{
+        text-align: center ; 
+    }
+    p.smaller{
+        padding: 0 ;
+        text-align: center ; 
+        font-size: 0.8em ; 
+    }
+}

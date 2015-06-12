@@ -1,0 +1,82 @@
+/* line 3, ../sass/main.scss */
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+/* line 7, ../sass/main.scss */
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* line 17, ../sass/main.scss */
+.col-xs-5ths {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  /* line 23, ../sass/main.scss */
+  .col-sm-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  /* line 30, ../sass/main.scss */
+  .col-md-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 37, ../sass/main.scss */
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+/* line 43, ../sass/main.scss */
+h1 {
+  font-size: 2em;
+  color: #0b80b7;
+  text-transform: uppercase;
+  line-height: 16px;
+  margin-top: 15px;
+  padding: 15px 0px 15px 10px;
+  border-left: 3px solid #0b80b7;
+}
+
+/* line 53, ../sass/main.scss */
+.center {
+  text-align: center;
+}
+
+/* line 57, ../sass/main.scss */
+.curve:before {
+  top: 52px;
+  left: 5px;
+  transform: rotate(5deg);
+  box-shadow: -7px 6px 15px #333;
+}
+
+/* line 64, ../sass/main.scss */
+h2 {
+  color: #0b80b7;
+}
+
+/* line 70, ../sass/main.scss */
+footer p {
+  text-align: center;
+}
+/* line 73, ../sass/main.scss */
+footer p.smaller {
+  padding: 0;
+  text-align: center;
+  font-size: 0.8em;
+}
