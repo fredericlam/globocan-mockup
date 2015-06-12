@@ -42,22 +42,11 @@ body {
   }
 }
 /* line 43, ../sass/main.scss */
-h1 {
-  font-size: 2em;
-  color: #0b80b7;
-  text-transform: uppercase;
-  line-height: 16px;
-  margin-top: 15px;
-  padding: 15px 0px 15px 10px;
-  border-left: 3px solid #0b80b7;
-}
-
-/* line 53, ../sass/main.scss */
 .center {
   text-align: center;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 .curve:before {
   top: 52px;
   left: 5px;
@@ -65,16 +54,200 @@ h1 {
   box-shadow: -7px 6px 15px #333;
 }
 
-/* line 64, ../sass/main.scss */
-h2 {
+/* line 54, ../sass/main.scss */
+ul.nav {
+  margin-top: 50px;
+}
+/* line 57, ../sass/main.scss */
+ul.nav li a {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #0b80b7;
+}
+/* line 62, ../sass/main.scss */
+ul.nav li a:hover {
+  color: #eee;
+}
+
+/* line 68, ../sass/main.scss */
+.navbar-inverse .navbar-nav > li > a {
   color: #0b80b7;
 }
 
-/* line 70, ../sass/main.scss */
+/* line 72, ../sass/main.scss */
+ul.social {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  margin-top: 10px;
+}
+/* line 77, ../sass/main.scss */
+ul.social li {
+  float: left;
+  margin-left: 5px;
+  list-style-type: none;
+}
+/* line 81, ../sass/main.scss */
+ul.social li a {
+  font-size: 1.4em;
+  color: #eee;
+}
+/* line 84, ../sass/main.scss */
+ul.social li a:hover {
+  color: #0b80b7;
+}
+/* line 86, ../sass/main.scss */
+ul.social li a:hover i {
+  color: #0b80b7;
+}
+/* line 90, ../sass/main.scss */
+ul.social li a i {
+  color: #ccc;
+}
+
+/* line 97, ../sass/main.scss */
+.heading {
+  min-height: 90px;
+  background: #fff;
+  width: 100%;
+}
+/* line 101, ../sass/main.scss */
+.heading .container {
+  position: relative;
+}
+
+/* line 106, ../sass/main.scss */
+.navbar-inverse {
+  border-bottom: solid 2px #0b80b7;
+}
+
+/* line 110, ../sass/main.scss */
+.lame {
+  min-height: 700px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 117, ../sass/main.scss */
+.lame.lame1 {
+  background: url(../img/bg_map.png) no-repeat #0b80b7;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding-top: 40px;
+}
+/* line 126, ../sass/main.scss */
+.lame.lame1 h1 {
+  font-size: 6em;
+  text-transform: uppercase;
+}
+/* line 130, ../sass/main.scss */
+.lame.lame1 h2 {
+  width: 60%;
+  color: #fff;
+}
+/* line 134, ../sass/main.scss */
+.lame.lame1 p.baseline {
+  width: 60%;
+  text-align: justify;
+  font-size: 1.4em;
+}
+/* line 139, ../sass/main.scss */
+.lame.lame1 .row {
+  margin-top: 50px;
+}
+/* line 141, ../sass/main.scss */
+.lame.lame1 .row h3 {
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+/* line 146, ../sass/main.scss */
+.lame.lame1 .row p {
+  text-align: center;
+}
+/* line 152, ../sass/main.scss */
+.lame.lame2 {
+  padding-top: 50px;
+  height: 500px !important;
+  min-height: 500px;
+  color: #000;
+  background: url(../img/dna-represented-tridimensional2.jpg) no-repeat #eee;
+}
+/* line 158, ../sass/main.scss */
+.lame.lame2 h2 {
+  font-size: 3em;
+  color: #0b80b7;
+}
+/* line 163, ../sass/main.scss */
+.lame.lame2 ul li {
+  font-size: 2em;
+  list-style-type: none;
+}
+/* line 168, ../sass/main.scss */
+.lame.lame2 p {
+  color: #000;
+  font-size: 1.4em;
+}
+/* line 174, ../sass/main.scss */
+.lame.lame2 {
+  color: #fff;
+  background: url(../img/dna-represented-tridimensional2.jpg) no-repeat #eee;
+}
+/* line 177, ../sass/main.scss */
+.lame.lame2 h2 {
+  font-size: 3em;
+  color: #0b80b7;
+  text-transform: uppercase;
+}
+/* line 183, ../sass/main.scss */
+.lame.lame2 ul li {
+  font-size: 2em;
+  list-style-type: none;
+}
+/* line 186, ../sass/main.scss */
+.lame.lame2 ul li i {
+  margin-right: 15px;
+}
+/* line 191, ../sass/main.scss */
+.lame.lame2 p {
+  color: #000;
+  font-size: 1.4em;
+}
+/* line 198, ../sass/main.scss */
+.lame.lame3 h2 {
+  font-size: 3em;
+  color: #0b80b7;
+  text-transform: uppercase;
+}
+/* line 203, ../sass/main.scss */
+.lame.lame3 p {
+  color: #000;
+  font-size: 1.4em;
+  padding-bottom: 20px;
+}
+/* line 208, ../sass/main.scss */
+.lame.lame3 p img {
+  margin-right: 50px;
+}
+
+/* line 215, ../sass/main.scss */
+footer {
+  background: #0b80b7;
+  padding: 20px 0;
+  color: #fff;
+}
+/* line 219, ../sass/main.scss */
 footer p {
   text-align: center;
 }
-/* line 73, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 footer p.smaller {
   padding: 0;
   text-align: center;

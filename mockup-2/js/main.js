@@ -5,7 +5,7 @@
 
 	});
 
-	$( window ).scroll(function() {
+	/* $( window ).scroll(function() {
 
   		if( $(this).scrollTop() >= 50 )
   		{
@@ -15,5 +15,5 @@
   		{
   			$('nav.navbar').removeClass('navbar-fixed-top').css('margin-top','10px') ; 
   		}
-	});
+	}); */
 
